@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="下載 AI 學術論文研究助手 Ultimate，依 ChatGPT 或 Windows Work／Codex 步驟安裝，並取得 APA 第七版 Word 範本。">
+  <meta name="color-scheme" content="light">
+  <title>AI 學術論文研究助手 Ultimate｜安裝與下載</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳至內容</a>
+<header class="container masthead">
+  <a class="brand" href="./" aria-label="AI 學術論文研究助手 Ultimate 首頁">
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M6 5.5h17v18H6m0-18v18m0-18H3.5m2.5 6H3.5m2.5 6H3.5m2.5 6H3.5m6.5-13h9m-9 4h9m-9 4h6" stroke="currentColor" stroke-width="1.4"/></svg>
+    <span>研究助手 Ultimate</span>
+  </a>
+  <nav aria-label="頁面導覽">
+    <a href="#install">安裝方式</a>
+    <a href="#downloads">檔案下載</a>
+  </nav>
+</header>
+<main class="container sheet" id="main">
+  <section class="hero" aria-labelledby="title">
+    <h1 id="title">AI 學術論文<br>研究助手 Ultimate</h1>
+    <p class="standfirst">從文獻搜尋、證據整理到 APA 第七版引用，選擇你的工作環境開始安裝。</p>
+    <div class="hero-actions">
+      <a class="button primary" href="./downloads/academic-research-assistant-ultimate-skill.zip" download>
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 15v5h16v-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        下載 Skill ZIP
+      </a>
+      <a class="secondary" href="#install">查看安裝步驟</a>
+    </div>
+  </section>
+
+  <section class="section" id="install" aria-labelledby="install-title">
+    <h2 id="install-title">選擇安裝位置</h2>
+    <div class="routes">
+      <article>
+        <h3><span class="route-no" aria-hidden="true">01</span> ChatGPT 帳號</h3>
+        <ol>
+          <li>先切到要使用的 ChatGPT 工作區。</li>
+          <li>依序開啟 <strong>外掛（Plugins）、技能（Skills）、建立（Create）</strong>，再選「從電腦上傳（Upload from computer）」。</li>
+          <li>上傳 Skill ZIP。掃描完成後，到「已安裝」確認。若看不到上傳選項，請確認工作區權限。</li>
+        </ol>
+      </article>
+      <article>
+        <h3><span class="route-no" aria-hidden="true">02</span> Windows 本機 Work／Codex</h3>
+        <p>解壓 ZIP，將整個 <code>academic-research-assistant-ultimate</code> 資料夾放到下列其中一處。</p>
+        <dl class="paths">
+          <div><dt>目前 Windows 使用者</dt><dd><code>%USERPROFILE%\.agents\skills\</code></dd></div>
+          <div><dt>僅供此專案</dt><dd><code>專案根目錄\.agents\skills\</code></dd></div>
+        </dl>
+        <p class="note">保留資料夾內的 <code>SKILL.md</code> 與所有配套檔案，不要多套一層同名資料夾。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section test" id="try" aria-labelledby="try-title">
+    <div>
+      <h2 id="try-title">開一個新對話驗證</h2>
+      <p>先直接貼上右方測試句。需要指定技能時，支援的 ChatGPT 介面可用 <kbd>@</kbd>；Codex CLI／IDE 可用 <kbd>$</kbd> 或 <kbd>/skills</kbd>。若選單找不到技能，請先確認安裝位置，再重啟 Codex。</p>
+    </div>
+    <blockquote>請找 3 篇國小 SEL 校務經營研究，優先臺灣，附 DOI、合法全文連結與研究限制。</blockquote>
+  </section>
+
+  <section class="section" id="downloads" aria-labelledby="files-title">
+    <h2 id="files-title">下載檔案</h2>
+    <ul class="file-list">
+      <li><div><h3>Skill 安裝包</h3><p>用於 ChatGPT 上傳，或解壓至 Windows 本機的技能資料夾。</p></div><a href="./downloads/academic-research-assistant-ultimate-skill.zip" download aria-label="下載 Skill 安裝包 ZIP">下載 ZIP</a></li>
+      <li><div><h3>安裝說明</h3><p>帳號安裝、本機目錄與觸發方式的速查表。</p></div><a href="./downloads/install-guide.pdf" download aria-label="下載安裝說明 PDF">下載 PDF</a></li>
+      <li><div><h3>使用指南與 APA 第七版</h3><p>搜尋、篩選與查證文獻，以及 APA 第七版寫作提示。</p></div><a href="./downloads/user-guide.pdf" download aria-label="下載使用指南與 APA 第七版 PDF">下載 PDF</a></li>
+      <li><div><h3>APA 第七版學生論文範本</h3><p>可編輯 Word 範本，以「社會情緒學習融入臺灣國小校務經營」為例，研究方法與結果須自行填寫。</p></div><a href="./downloads/apa7-student-template.docx" download aria-label="下載 APA 第七版學生論文範本 Word">下載 Word</a></li>
+    </ul>
+  </section>
+
+  <section class="section mcp" aria-labelledby="mcp-title">
+    <div>
+      <h2 id="mcp-title">MCP 是獨立的選用工具</h2>
+      <p>這是本機測試版，尚未部署為遠端服務，也未連接 ChatGPT。只使用 Skill 時，不需要安裝 MCP；Skill ZIP 不含 MCP 服務或 API 金鑰。</p>
+    </div>
+    <a href="./downloads/mcp-gateway-sel.zip" download aria-label="下載選用 MCP Gateway 本機測試版 ZIP">下載本機測試包</a>
+  </section>
+</main>
+<footer class="container footer">
+  <span>AI 學術論文研究助手 Ultimate</span>
+  <a href="#main">回到頁首</a>
+</footer>
+</body>
+</html>
