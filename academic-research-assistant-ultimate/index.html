@@ -17,6 +17,7 @@
   </a>
   <nav aria-label="頁面導覽">
     <a href="#install">安裝方式</a>
+    <a href="#usage">使用說明</a>
     <a href="#downloads">檔案下載</a>
   </nav>
 </header>
@@ -62,6 +63,33 @@
       <p>先直接貼上右方測試句。需要指定技能時，支援的 ChatGPT 介面可用 <kbd>@</kbd>；Codex CLI／IDE 可用 <kbd>$</kbd> 或 <kbd>/skills</kbd>。若選單找不到技能，請先確認安裝位置，再重啟 Codex。</p>
     </div>
     <blockquote>請找 3 篇國小 SEL 校務經營研究，優先臺灣，附 DOI、合法全文連結與研究限制。</blockquote>
+  </section>
+
+  <section class="section" id="usage" aria-labelledby="usage-title">
+    <h2 id="usage-title">使用說明</h2>
+    <p>在新對話直接說明研究主題、對象、地區與想要的成果。需要手動指定時，支援的 ChatGPT 介面可用 <kbd>@</kbd> 選技能；Codex CLI／IDE 可用 <kbd>$</kbd> 或 <kbd>/skills</kbd>。若未出現選項，先確認技能已安裝在目前工作區或專案。</p>
+    <div class="routes">
+      <article>
+        <h3>找文獻與判讀證據</h3>
+        <ol>
+          <li><strong>設定搜尋範圍：</strong>提供主題、對象、年份與地區，例如「臺灣國小全校推動 SEL」。</li>
+          <li><strong>查核每筆書目：</strong>要求附 DOI 或永久連結，並標示是官方全文、僅摘要，還是需要授權。</li>
+          <li><strong>上傳 PDF 評讀：</strong>要求整理研究方法、樣本、主要結果與限制，能取得全文時再附頁碼。多篇可整理成比較矩陣。</li>
+        </ol>
+      </article>
+      <article>
+        <h3>APA 7 健檢與論文草擬</h3>
+        <ol>
+          <li><strong>檢查文件：</strong>上傳 Word 或 PDF，核對文內引註、參考文獻、DOI、標題層級及表圖。請分開列 APA 7 與系所的加訂要求。</li>
+          <li><strong>搭建章節：</strong>依研究問題規劃緒論、文獻探討、研究方法、研究結果，以及討論、結論與建議。用查證文獻支撐論點，不代填未取得的樣本或結果。</li>
+          <li><strong>交付可編輯 Word：</strong>在 Work／Codex 指定「直接產出 APA 7 格式 DOCX」，附上題目、手上資料及系所格式。未確認事項保留【待填】。</li>
+        </ol>
+      </article>
+    </div>
+    <p><strong>可直接貼上的提示詞：</strong></p>
+    <blockquote>請找 3 篇國小 SEL 校務經營研究，優先臺灣，列 DOI、合法全文和研究限制。以查證文獻草擬緒論與文獻探討，方法和結果先保留【待填】，並交付 APA 7 格式 DOCX。</blockquote>
+    <p><a href="./downloads/user-guide.pdf" download>下載完整使用指南 PDF</a>　｜　<a href="./downloads/apa7-student-template.docx" download>下載可編輯 Word 範本</a></p>
+    <p class="note">使用 Skill 不代表已連接 MCP。當未接通 MCP 時，仍可請助手使用可取得的公開來源與你提供的檔案。</p>
   </section>
 
   <section class="section" id="downloads" aria-labelledby="files-title">
